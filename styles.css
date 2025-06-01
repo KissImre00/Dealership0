@@ -23,26 +23,10 @@ body .hd h1 {
   text-align: center;
   line-height: 1.2;
 }
-.avatar-img {
-  width: 40px;
-  height: 40px;
-  border: 2px solid #000;
-  object-fit: cover;
-  position: relative;
-  z-index: 1;
-  margin-left: -10px;
+.row {
+    margin-left: 1%;
 }
-
-.avatar-img:first-child {
-  margin-left: 0;
-}
-
-.avatar-add {
-  background-color: white;
-  color: white !important;
-  z-index: 0;
-}
-.loved {
-    margin-left: 5em !important;
+.row {
+    padding-right: none !important;
 }
 

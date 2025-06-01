@@ -14,7 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body><canvas id="dotCanvas"></canvas>
+    <div class=" dott container-fluid dots m-0 p-0" data-bs-theme="dark" id="dot-background"
+        style="position: relative; overflow: hidden;">
+        
+    </div>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
@@ -69,30 +73,82 @@
         </nav>
     </header>
 
-    <div class=" dott container-fluid dots m-0 p-0" data-bs-theme="dark" id="dot-background"
-        style="position: relative; overflow: hidden;">
-        <canvas id="dotCanvas"></canvas>
-    </div>
+    
     <div class="text-center hd">
         <h1 class="display-1">The Leading Dealership in Miami</h1>
         <p class="fs-4">Join the thousands of satisfied customers.
         </p>
     </div>
-    <div class="d-flex position-relative m-auto loved">
-    <img src="kepek/05-12-21-happy-people.jpg" class="rounded-circle avatar-img" alt="User 1">
-    <img src="kepek/05-12-21-happy-people.jpg" class="rounded-circle avatar-img" alt="User 2">
-    <img src="kepek/05-12-21-happy-people.jpg" class="rounded-circle avatar-img" alt="User 3">
-    <div class="rounded-circle avatar-img avatar-add d-flex align-items-center justify-content-center">
-      <span class="fw-bold fs-5">+</span>
-    </div>
-  </div>
 
-  <!-- Text -->
-  <div class="loved">
-    <div class="fw-bold">Happy Members</div>
-    <div class="text-muted small">Loved by millions</div>
-  </div>
-</div>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-2">
+            <div class="container my-4">
+                <div class="row align-items-center">
+                    <div class="col-auto d-flex align-items-center">
+                        <!-- Avatars -->
+                        <div class="d-flex align-items-center position-relative">
+                            <img src="kepek/05-12-21-happy-people.jpg" class="rounded-circle avatar-img" alt="User 1">
+                            <img src="kepek/05-12-21-happy-people.jpg" class="rounded-circle avatar-img" alt="User 2">
+                            <img src="kepek/05-12-21-happy-people.jpg" class="rounded-circle avatar-img" alt="User 3">
+                            <div
+                                class="rounded-circle avatar-img avatar-add d-flex justify-content-center align-items-center">
+                                <span class="fw-bold fs-5">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="fw-bold szov">Happy Members</div>
+                        <div class="szovsub">Loved by millions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="but col-lg-2 mt-5">
+            <button>More
+            </button>
+        </div>
+        <div class="col-lg-3">
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="review-box d-flex align-items-center px-4 py-3">
+                            <div class="rating-number me-3">4.9</div>
+                            <div class="stars-text">
+                                <div class="stars text-warning">★ ★ ★ ★ ★</div>
+                                <div class="review-text">Based on 420 reviews</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Bootstrap 5 Footer with Dark Theme -->
     <footer class="bg-dark text-light py-4 mt-5" data-bs-theme="dark">
         <div class="container text-center">
