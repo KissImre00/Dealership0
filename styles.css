@@ -1,5 +1,48 @@
-#blk {
-    width: 100%;
-    height: 100%;
-    background-color: black;
+@font-face {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold'), url('Gilroy-Bold.woff') format('woff');
 }
+
+body .hd h1 {
+    font-family: 'Gilroy-Bold' !important;
+}
+.hd h1{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.hd p{
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(2rem, 5vw + 1rem, 7rem);
+  text-align: center;
+  line-height: 1.2;
+}
+.display-1 {
+  font-size: clamp(2rem, 5vw + 1rem, 7rem);
+  text-align: center;
+  line-height: 1.2;
+}
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #000;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  margin-left: -10px;
+}
+
+.avatar-img:first-child {
+  margin-left: 0;
+}
+
+.avatar-add {
+  background-color: white;
+  color: white !important;
+  z-index: 0;
+}
+.loved {
+    margin-left: 5em !important;
+}
+

@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="uiverse.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="gpt.css">
-    <link rel="stylesheet" href="bg.css">
+    <link rel="stylesheet" href="/bg/bg.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -68,11 +69,30 @@
         </nav>
     </header>
 
-    <div class="container-fluid dots" data-bs-theme="dark" id="dot-background"
-        style="width: 600px; height: 400px; position: relative; overflow: hidden;">
+    <div class=" dott container-fluid dots m-0 p-0" data-bs-theme="dark" id="dot-background"
+        style="position: relative; overflow: hidden;">
         <canvas id="dotCanvas"></canvas>
     </div>
-    <div id="blk"></div>
+    <div class="text-center hd">
+        <h1 class="display-1">The Leading Dealership in Miami</h1>
+        <p class="fs-4">Join the thousands of satisfied customers.
+        </p>
+    </div>
+    <div class="d-flex position-relative m-auto loved">
+    <img src="kepek/05-12-21-happy-people.jpg" class="rounded-circle avatar-img" alt="User 1">
+    <img src="kepek/05-12-21-happy-people.jpg" class="rounded-circle avatar-img" alt="User 2">
+    <img src="kepek/05-12-21-happy-people.jpg" class="rounded-circle avatar-img" alt="User 3">
+    <div class="rounded-circle avatar-img avatar-add d-flex align-items-center justify-content-center">
+      <span class="fw-bold fs-5">+</span>
+    </div>
+  </div>
+
+  <!-- Text -->
+  <div class="loved">
+    <div class="fw-bold">Happy Members</div>
+    <div class="text-muted small">Loved by millions</div>
+  </div>
+</div>
     <!-- Bootstrap 5 Footer with Dark Theme -->
     <footer class="bg-dark text-light py-4 mt-5" data-bs-theme="dark">
         <div class="container text-center">
@@ -92,7 +112,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
-    <script src="bg.js" id="dotCanvas"></script>
+    <script src="/bg/bg.js" id="dotCanvas"></script>
 
 </body>
 
