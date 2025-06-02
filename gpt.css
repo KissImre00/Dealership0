@@ -30,6 +30,7 @@ body, html {
   transition: width 0.2s, height 0.2s;
 }
 
+
 .avatar-img:first-child {
   margin-left: 0;
 }
@@ -85,5 +86,12 @@ footer.bg-dark {
   -webkit-backdrop-filter: blur(10px); /* Safari support */
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+.bgdark {
+    background-color: rgba(0, 0, 0, 0.4) !important; /* Make dark transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 
 

@@ -10,8 +10,8 @@
   background-color: inherit;
   border-radius: 100px;
   font-weight: 600;
-  color: greenyellow;
-  box-shadow: 0 0 0 2px greenyellow;
+  color: #99ff99;
+  box-shadow: 0 0 0 2px #99ff99;
   cursor: pointer;
   overflow: hidden;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -20,7 +20,7 @@
 .animated-button svg {
   position: absolute;
   width: 24px;
-  fill: greenyellow;
+  fill: #99ff99;
   z-index: 9;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -40,7 +40,7 @@
   transform: translate(-50%, -50%);
   width: 20px;
   height: 20px; 
-  background-color: greenyellow;
+  background-color: #99ff99;
   border-radius: 50%;
   opacity: 0;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -101,19 +101,68 @@
 
 .but button:hover {
   letter-spacing: 3px;
-  background-color: hsl(261deg 80% 48%);
+  background-color: #99ff99;
   color: hsl(0, 0%, 100%);
-  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  box-shadow: #99ff99 0px 7px 29px 0px;
 }
 
 .but button:active {
   letter-spacing: 3px;
-  background-color: hsl(261deg 80% 48%);
+  background-color: #99ff99;
   color: hsl(0, 0%, 100%);
-  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  box-shadow: #99ff99 0px 0px 0px 0px;
   transform: translateY(10px);
   transition: 100ms;
 }
 .but{
-  scale: 120%;}
+  scale: 120%;
+  font-family: 'Gilroy-Bold' !important;
+}
 
+/* From Uiverse.io by Allyhere */ 
+.btn-donate {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(120, 100%, 80%, 1);
+  --btn-bg-2: rgb(0, 121, 36);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(
+    325deg,
+    var(--btn-bg-2) 0%,
+    var(--btn-bg-1) 55%,
+    var(--btn-bg-2) 90%
+  );
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow:
+    0px 0px 20px rgba(2, 185, 84, 0.5),
+    0px 5px 5px -1px rgba(1, 114, 29, 0.25),
+    inset 4px 4px 8px rgba(175, 255, 195, 0.5),
+    inset -4px -4px 8px rgba(19, 216, 35, 0.35);
+}
+
+.btn-donate:hover {
+  background-position: right top;
+}
+
+.btn-donate:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow:
+    0 0 0 3px var(--btn-bg-color),
+    0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-donate {
+    transition: linear;
+  }
+}

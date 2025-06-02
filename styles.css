@@ -8,6 +8,9 @@
 body .hd h1 {
     font-family: 'Gilroy-Bold' !important;
 }
+header {
+    font-family: 'Inter', sans-serif;
+}
 .hd h1{
     margin-top: 1.5em;
     margin-bottom: 0.5em;
@@ -29,4 +32,10 @@ body .hd h1 {
 .row {
     padding-right: none !important;
 }
-
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+h1 {
+    font-family: 'Gilroy-Bold' !important;
+}
