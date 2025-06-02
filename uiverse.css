@@ -114,4 +114,6 @@
   transform: translateY(10px);
   transition: 100ms;
 }
+.but{
+  scale: 120%;}
 
