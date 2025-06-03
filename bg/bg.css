@@ -16,6 +16,7 @@ html, body {
   z-index: 0;
   pointer-events: none;
   display: block;
+  scale: 1.07;
 }
 header, .hd, .row, footer {
   position: relative;
