@@ -8,7 +8,7 @@
 body .hd h1 {
     font-family: 'Gilroy-Bold' !important;
 }
-header {
+header, h4 {
     font-family: 'Inter', sans-serif;
 }
 .hd h1{
@@ -44,5 +44,12 @@ h1 {
     height: 100%;
     background-color: #99ff99;
     box-shadow: #99ff99 0px 0px 20px 3px;
+    border-radius: 50px;
+}
+.ki2 {
+    width: 10px !important;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: #ffffff 0px 0px 20px 3px;
     border-radius: 50px;
 }

@@ -92,6 +92,22 @@ footer.bg-dark {
   -webkit-backdrop-filter: blur(10px); /* Safari support */
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-
-
+.bgdark2 {
+    background-color: rgba(56, 54, 54, 0.4) !important; /* Make dark transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.bgdark3 {
+    background-color: rgba(24, 46, 37, 0.6) !important; /* Make dark transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.bgdark4 {
+    background-color: rgba(56, 54, 54, 0.4); /* Make dark transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
 

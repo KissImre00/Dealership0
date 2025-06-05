@@ -1,0 +1,41 @@
+<div id="carouselExample" class="carousel slide col-12 col-sm-10 my-5">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="cropped/1a_bmw_wanchaishowroom_finedata_1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cropped/BannerPhoto.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cropped/car-dealer-singapore.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cropped/carshop-nottingham-sytner-car-supermarket-42-scaled-e1730122145949-1920x1080.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cropped/ZOQEY72RFJA2TIHSKSHHULXIEI.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="custom-arrow" aria-hidden="true">
+                            <svg width="64" height="64" viewBox="0 0 32 32" fill="none">
+                                <path d="M20 8L12 16L20 24" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="custom-arrow" aria-hidden="true">
+                            <svg style="" width="64" height="64" viewBox="0 0 32 32" fill="none">
+                                <path d="M12 8L20 16L12 24" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
