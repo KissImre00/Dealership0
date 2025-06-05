@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background: transparent;
+}
+
+#dotCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  display: block;
+  scale: 1.07;
+}
+header, .hd, .row, footer {
+  position: relative;
+  z-index: 1;
+}
+body {
+  background-color: #000; /* or #111 for softer black */
+  color: white; /* optional, for readability */
+}
