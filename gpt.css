@@ -5,6 +5,9 @@ body, html {
       background: black;
       color: white;
       overflow-x: hidden;
+
+  scroll-behavior: smooth;
+
     }
     #dotCanvas {
       position: fixed;

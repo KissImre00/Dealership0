@@ -53,3 +53,17 @@ h1 {
     box-shadow: #ffffff 0px 0px 20px 3px;
     border-radius: 50px;
 }
+.img {
+    border-radius: 100%;
+    border: 5px solid #99ff99;
+    box-shadow: 0 0 10px rgba(153, 255, 153, 1);
+    opacity: 0.8;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+
+}
+.nav-item.dropdown .dropdown-item:active {
+    background-color: #99ff99 !important;
+}
